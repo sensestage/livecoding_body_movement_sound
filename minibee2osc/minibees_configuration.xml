@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<xml>
+  <hive name="myprojectname">
+    <minibee caps="7" configuration="1" id="1" libversion="7" name="minibee1" revision="D" serial="0013A20040C18168">
+      <custom/>
+    </minibee>
+    <minibee caps="7" configuration="1" id="2" libversion="7" name="minibee2" revision="D" serial="0013A20040C18163">
+      <custom/>
+    </minibee>
+
+    <minibee caps="7" configuration="1" id="3" libversion="7" name="minibee3" revision="D" serial="0013A20040901CB0">
+      <custom/>
+    </minibee>
+
+    <minibee caps="7" configuration="1" id="4" libversion="7" name="minibee4" revision="D" serial="0013A20040C18151">
+      <custom/>
+    </minibee>
+    <minibee caps="7" configuration="1" id="5" libversion="7" name="minibee5" revision="D" serial="0013A20040C18153">
+      <custom/>
+    </minibee>
+
+    <minibee caps="7" configuration="1" id="6" libversion="7" name="minibee6" revision="D" serial="0013A200405DBD31">
+      <custom/>
+    </minibee>
+
+    <minibee caps="7" configuration="1" id="7" libversion="7" name="minibee7" revision="D" serial="0013A20040C1816F">
+      <custom/>
+    </minibee>
+    <minibee caps="7" configuration="1" id="8" libversion="7" name="minibee8" revision="D" serial="0013A20040A60FD3">
+      <custom/>
+    </minibee>
+    <minibee caps="7" configuration="1" id="9" libversion="7" name="minibee9" revision="D" serial="0013A20040A16A57">
+      <custom/>
+    </minibee>
+
+    <configuration id="1" message_interval="25" name="accelero" redundancy="3" rssi="False" samples_per_message="1">
+      <pin config="TWIClock" id="A5" name="None"/>
+      <pin config="TWIData" id="A4" name="None"/>
+      <twi device="ADXL345" id="1" name="accelero"/>
+    </configuration>
+
+  </hive>
+</xml>
