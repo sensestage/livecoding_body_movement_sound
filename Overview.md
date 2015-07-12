@@ -5,6 +5,10 @@ Workshop files available at [https://github.com/sensestage/livecoding_body_movem
 *Examples are available in SuperCollider - by the end of the workshop, I hope to have more examples from all of you!*
 
 
+
+
+
+
 ## Introduction - movement with arms
 
 - make different pathways/shapes around the body
@@ -13,6 +17,9 @@ Workshop files available at [https://github.com/sensestage/livecoding_body_movem
 - find oscillating movements
 
 - *do the movements again - and vocalise the sound of the movement*
+
+
+
 
 
 ## Infrastructure
@@ -34,6 +41,9 @@ The data has the format (osctag followed by arguments):
 [3]: https://github.com/sensestage/xosc
 
 
+
+
+
 ## First data exploration
 
 - the data is scaled to be between 0 and 1
@@ -42,6 +52,11 @@ The data has the format (osctag followed by arguments):
 - 1g is around 0.03 in the range; full range is 32 g (+/- 16g).
 
 exercise: *make a first simple mapping of the 3 parameters to a sound*
+
+
+
+
+
 
 ## Mapping strategies
 
@@ -52,11 +67,20 @@ exercise: *make a first simple mapping of the 3 parameters to a sound*
 
 exercise: *control 3 different sounds based on different types of movement/position*
 
+
+
+
+
 ## Livecoding mapping
 
-exercise: *move while another person livecodes mappings of the data to sound, discuss how the sound is influencing your movement and what sounds and/or movements you discover*
+exercise: *move while another person livecodes mappings of the data to sound*
 
-exercise: *switch roles*
+- *discuss how the sound is influencing your movement and what sounds and/or movements you discover*
+- *discuss how the movement is influencing your coding and/or mappings you discover*
+- *switch roles and repeat*
+
+
+
 
 
 ## Networking
@@ -67,6 +91,9 @@ exercise: *switch roles*
 /XOSC/subscribe/tag /custom/osc/tag portno```. Here ```/custom/osc/tag``` is a string argument indicating the osc-tag you are interested in. ```portno``` is the port that you will be listening on for incoming messages.
 
 - Use the conditioned data from others for conditional mapping of yours (keep existing data streams going)
+
+
+
 
 ## Group improvisation!
 
